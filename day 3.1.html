@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+        <input id="num1" type="number" placeholder="Enter first number">
+        <input id="num2" type="number" placeholder="Enter second number">
+        <button type="button" onclick="add(event)">Add</button>
+
+        <p id="result">Result will appear here</p>
+
+    </form>
+    <script>
+        function add(event) {
+    event.preventDefault(); // Stops page refresh
+    let sum = Number(num1.value) + Number(num2.value);
+    result.innerText = sum;
+}
+
+    </script>
+</body>
+</html>
