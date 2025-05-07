@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p></p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quidem omnis aut nobis officiis beatae nisi. Temporibus, labore. Dolor reprehenderit quibusdam ab adipisci, dolore modi molestias impedit ex laboriosam error.
+     </p>
+        <h2 class= "demo_class" id = "demo" ></h2>
+        <button onmouseover=" myFunction()" > click me</button>
+        <br>
+        <form action = "">
+            enter: <input type="text" id= "myInput" onblur="blure(this)"/>
+            password: <input type = "text" id="myInput" onblur="blure(this)"/>
+            <input type="submit">
+        </form>
+    <script>
+        function focuse(x) {
+            x.style.background = "yellow";
+            x.style.color = "red";
+            x.style.fontSize = "20px";
+            x.style.fontFamily = "Arial";
+            x.style.textAlign = "center";
+
+        }
+        function blure(x) {
+            x.style.background = "red";
+            x.style.color = "black";
+            x.style.fontSize = "16px";
+            x.style.fontFamily = "Arial";
+            x.style.textAlign = "left";
+        }
+    </script>
+</body>
+</html>
